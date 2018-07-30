@@ -1,8 +1,8 @@
-###Features
+### Features
 
 - Bookstore application with save, delete and search capabilities
 
-#####Technologies
+##### Technologies
 
 - Java 8
 - Spring Boot
