@@ -51,10 +51,12 @@ public class Book {
 	private Date publishedOn;
 }
 ```
+
+###### Testing
+
+`90% Test coverage using Junit and JBehave`
+
 ###### Git Strategy
-
-![](https://qph.ec.quoracdn.net/main-qimg-b37882935803f2af6051b029c17ac34b)
-
 
 ```seq
 master->dev: work in dev branch
@@ -62,6 +64,5 @@ dev-->feature: major feature
 feature-->dev: megre
 dev-> master: pull request
 ```
-###### Testing
 
-`90% Test coverage using Junit and JBehave`
+![](https://nvie.com/img/git-model@2x.png)
