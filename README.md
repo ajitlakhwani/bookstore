@@ -10,3 +10,58 @@
 - JAX-RS Microservices
 - JUnit and JBehave
 - Angular CLI
+
+                    
+### Details
+
+###### Project Structure
+
+`Multi module gradle project`
+```
++-- bookstore-ui
+	+-- build.gradle
++-- bookstore-services
+	+-- build.gradle
+	+-- src/main/java
+	+-- src/main/resources
+	+-- src/test/java
++-- build.gradle
++-- settings.gradle
+```
+###### Rest Endpoints
+
+| Endpoint | Description|
+| -------------| ------------------------------ |
+| `GET`  book/get | Return a book for specified path param |
+| `POST` book/add | Add a book for request payload |
+| `DELETE` book/delete | Delete a book for specified path param      |
+| `GET` book/search | Search a book with given criteria (Java 8 - Lambda)  |
+
+###### Bean
+
+```java
+public class Book {
+	private Long id;
+	private String name;
+	private String code;
+	private String price;
+	private String authors;
+	private String isbn;
+	private String publisher;
+	private Date publishedOn;
+}
+```
+###### Git Strategy
+
+![](https://qph.ec.quoracdn.net/main-qimg-b37882935803f2af6051b029c17ac34b)
+
+
+```seq
+master->dev: work in dev branch
+dev-->feature: major feature
+feature-->dev: megre
+dev-> master: pull request
+```
+###### Testing
+
+`90% Test coverage using Junit and JBehave`
