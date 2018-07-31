@@ -2,6 +2,16 @@
 
 - Bookstore application with save, delete and search capabilities
 
+**Table of contents**
+
+- [Technologies](#technologies)
+- [Details](#details)
+    + [Project Structure](#project-structure)
+    + [Rest Endpoints](#rest-endpoints)
+    + [Bean](#bean)
+    + [Testing](#testing)
+    + [Git Strategy](#git-strategy)
+
 ##### Technologies
 
 - Java 8
@@ -9,6 +19,7 @@
 - Gradle
 - JAX-RS Microservices
 - JUnit and JBehave
+- Liquibase and MySQL
 - Angular CLI
 
                     
